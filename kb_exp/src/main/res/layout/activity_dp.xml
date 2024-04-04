@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/exp_bg"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl"
+            style="@style/style_common_top_layout">
+
+            <ImageView
+                android:id="@+id/img_back"
+                style="@style/style_common_top_layout_icon"
+                android:src="@drawable/icon_back" />
+
+            <TextView
+                style="@style/style_common_top_layout_title"
+                android:layout_toEndOf="@id/img_back"
+                android:text="Dynamic Proxy" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:textColor="@color/exp_item_title"
+                android:id="@+id/t"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/n_a"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:textColor="@color/exp_item_title"
+                android:id="@+id/t0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/n_a"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:textColor="@color/exp_item_title"
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/n_a"
+                android:textSize="14sp" />
+
+            <TextView
+                android:textColor="@color/exp_item_title"
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/n_a"
+                android:textSize="14sp" />
+
+            <TextView
+                android:textColor="@color/exp_item_title"
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/n_a"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blacka"
+                android:text="@string/n_a" />
+
+            <TextView
+                android:textColor="@color/exp_item_title"
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/n_a"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/btn"
+                android:layout_marginTop="10dp"
+                style="@style/style_exp_common_text"
+                android:background="@drawable/shape_10dp_white"
+                android:text="Click To Unregister Activity" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

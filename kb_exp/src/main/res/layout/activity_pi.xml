@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl"
+            style="@style/style_common_top_layout">
+
+            <ImageView
+                android:id="@+id/img_back"
+                style="@style/style_common_top_layout_icon"
+                android:src="@drawable/icon_back" />
+
+            <TextView
+                style="@style/style_common_top_layout_title"
+                android:layout_toEndOf="@id/img_back"
+                android:text="Process Info" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:background="@color/exp_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tx_pid"
+                android:background="@drawable/shape_10dp_white"
+                style="@style/style_process_info_tx" />
+
+            <TextView
+                android:id="@+id/tx_rid"
+                android:background="@drawable/shape_10dp_white"
+                style="@style/style_process_info_tx" />
+
+            <TextView
+                android:id="@+id/tx_cpu_count"
+                android:background="@drawable/shape_10dp_white"
+                style="@style/style_process_info_tx" />
+
+            <TextView
+                android:id="@+id/tx_big_core"
+                android:background="@drawable/shape_10dp_white"
+                style="@style/style_process_info_tx" />
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>
